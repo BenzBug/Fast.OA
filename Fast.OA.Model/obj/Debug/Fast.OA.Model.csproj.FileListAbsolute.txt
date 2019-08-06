@@ -1,0 +1,12 @@
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\Fast.OA.Model.dll.config
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\Fast.OA.Model.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\Fast.OA.Model.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\EntityFramework.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\EntityFramework.xml
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\obj\Debug\Fast.OA.Model.csprojResolveAssemblyReference.cache
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\obj\Debug\Fast.OA.Model.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\obj\Debug\Fast.OA.Model.pdb

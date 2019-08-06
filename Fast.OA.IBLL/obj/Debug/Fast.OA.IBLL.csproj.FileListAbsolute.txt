@@ -1,0 +1,10 @@
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\bin\Debug\Fast.OA.IBLL.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\bin\Debug\Fast.OA.IBLL.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\bin\Debug\Fast.OA.Model.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\bin\Debug\EntityFramework.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\bin\Debug\Fast.OA.Model.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\bin\Debug\EntityFramework.xml
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\obj\Debug\Fast.OA.IBLL.csprojResolveAssemblyReference.cache
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\obj\Debug\Fast.OA.IBLL.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IBLL\obj\Debug\Fast.OA.IBLL.pdb

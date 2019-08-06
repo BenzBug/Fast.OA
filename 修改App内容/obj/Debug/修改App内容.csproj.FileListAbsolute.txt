@@ -1,0 +1,6 @@
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\修改App内容\bin\Debug\修改App内容.exe.config
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\修改App内容\bin\Debug\修改App内容.exe
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\修改App内容\bin\Debug\修改App内容.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\修改App内容\obj\Debug\修改App内容.csprojResolveAssemblyReference.cache
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\修改App内容\obj\Debug\修改App内容.exe
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\修改App内容\obj\Debug\修改App内容.pdb

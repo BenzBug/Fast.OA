@@ -1,0 +1,16 @@
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.BLL.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.BLL.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.DALFactory.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.EFDAL.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.IBLL.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.IDAL.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.Model.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\EntityFramework.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.DALFactory.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.EFDAL.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.IBLL.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.IDAL.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\bin\Debug\Fast.OA.Model.pdb
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\obj\Debug\Fast.OA.BLL.csprojResolveAssemblyReference.cache
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\obj\Debug\Fast.OA.BLL.dll
+F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.BLL\obj\Debug\Fast.OA.BLL.pdb
