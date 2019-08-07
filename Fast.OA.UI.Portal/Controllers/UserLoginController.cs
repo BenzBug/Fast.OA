@@ -23,7 +23,7 @@ namespace Fast.OA.UI.Portal.Controllers
         // GET: UserLogin
         public ActionResult Index()
         {
-            return View();
+            return View("IndexLTE_Login");
         }
 
         public ActionResult ShowVCode()

@@ -8,3 +8,13 @@ F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IDAL\bin\Debug\zh-Hans
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IDAL\obj\Debug\Fast.OA.IDAL.csprojResolveAssemblyReference.cache
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IDAL\obj\Debug\Fast.OA.IDAL.dll
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.IDAL\obj\Debug\Fast.OA.IDAL.pdb
+F:\MyGit\Fast.OA\Fast.OA.IDAL\bin\Debug\Fast.OA.IDAL.dll
+F:\MyGit\Fast.OA\Fast.OA.IDAL\bin\Debug\Fast.OA.IDAL.pdb
+F:\MyGit\Fast.OA\Fast.OA.IDAL\bin\Debug\Fast.OA.Model.dll
+F:\MyGit\Fast.OA\Fast.OA.IDAL\bin\Debug\EntityFramework.dll
+F:\MyGit\Fast.OA\Fast.OA.IDAL\bin\Debug\Fast.OA.Model.pdb
+F:\MyGit\Fast.OA\Fast.OA.IDAL\bin\Debug\EntityFramework.xml
+F:\MyGit\Fast.OA\Fast.OA.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\MyGit\Fast.OA\Fast.OA.IDAL\obj\Debug\Fast.OA.IDAL.csprojResolveAssemblyReference.cache
+F:\MyGit\Fast.OA\Fast.OA.IDAL\obj\Debug\Fast.OA.IDAL.dll
+F:\MyGit\Fast.OA\Fast.OA.IDAL\obj\Debug\Fast.OA.IDAL.pdb

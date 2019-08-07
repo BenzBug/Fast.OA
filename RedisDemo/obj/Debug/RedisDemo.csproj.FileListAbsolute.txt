@@ -1,0 +1,13 @@
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\RedisDemo.exe.config
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\RedisDemo.exe
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\RedisDemo.pdb
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.Common.dll
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.dll
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.Interfaces.dll
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.OrmLite.dll
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.Redis.dll
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.ServiceInterface.dll
+F:\MyGit\Fast.OA\RedisDemo\bin\Debug\ServiceStack.Text.dll
+F:\MyGit\Fast.OA\RedisDemo\obj\Debug\RedisDemo.exe
+F:\MyGit\Fast.OA\RedisDemo\obj\Debug\RedisDemo.pdb

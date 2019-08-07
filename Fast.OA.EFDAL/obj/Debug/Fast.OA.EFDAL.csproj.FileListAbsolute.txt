@@ -11,3 +11,12 @@ F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.EFDAL\bin\Debug\Entity
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.EFDAL\obj\Debug\Fast.OA.EFDAL.csprojResolveAssemblyReference.cache
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.EFDAL\obj\Debug\Fast.OA.EFDAL.dll
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.EFDAL\obj\Debug\Fast.OA.EFDAL.pdb
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\bin\Debug\Fast.OA.EFDAL.dll
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\bin\Debug\Fast.OA.EFDAL.pdb
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\bin\Debug\Fast.OA.IDAL.dll
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\bin\Debug\Fast.OA.Model.dll
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\bin\Debug\Fast.OA.IDAL.pdb
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\bin\Debug\Fast.OA.Model.pdb
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\obj\Debug\Fast.OA.EFDAL.csprojResolveAssemblyReference.cache
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\obj\Debug\Fast.OA.EFDAL.dll
+F:\MyGit\Fast.OA\Fast.OA.EFDAL\obj\Debug\Fast.OA.EFDAL.pdb

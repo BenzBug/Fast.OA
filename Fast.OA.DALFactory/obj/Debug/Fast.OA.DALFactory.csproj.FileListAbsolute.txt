@@ -9,3 +9,14 @@ F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.DALFactory\bin\Debug\F
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.DALFactory\obj\Debug\Fast.OA.DALFactory.csprojResolveAssemblyReference.cache
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.DALFactory\obj\Debug\Fast.OA.DALFactory.dll
 F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.DALFactory\obj\Debug\Fast.OA.DALFactory.pdb
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.DALFactory.dll
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.DALFactory.pdb
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.EFDAL.dll
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.IDAL.dll
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.Model.dll
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.EFDAL.pdb
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.IDAL.pdb
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\bin\Debug\Fast.OA.Model.pdb
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\obj\Debug\Fast.OA.DALFactory.csprojResolveAssemblyReference.cache
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\obj\Debug\Fast.OA.DALFactory.dll
+F:\MyGit\Fast.OA\Fast.OA.DALFactory\obj\Debug\Fast.OA.DALFactory.pdb
