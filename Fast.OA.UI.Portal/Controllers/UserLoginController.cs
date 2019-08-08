@@ -18,7 +18,7 @@ namespace Fast.OA.UI.Portal.Controllers
         {
             this.isCheckLoginuser = false;
         }
-        IUserInfoService adminInfoService = new UserInfoService();
+        IUserInfoService adminInfoService = new UserInfoService();    
 
         // GET: UserLogin
         public ActionResult Index()
