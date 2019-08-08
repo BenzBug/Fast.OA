@@ -23,6 +23,7 @@ namespace Fast.OA.UI.Portal.Controllers
         // GET: UserLogin
         public ActionResult Index()
         {
+            //使用新登录界面
             return View("IndexLTE_Login");
         }
 
