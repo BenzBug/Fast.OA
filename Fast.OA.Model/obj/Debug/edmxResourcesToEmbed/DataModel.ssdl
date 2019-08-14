@@ -69,7 +69,7 @@
     <Property Name="Age" Type="int" Nullable="false" />
     <Property Name="Phone" Type="nvarchar" MaxLength="16" />
     <Property Name="Email" Type="nvarchar(max)" />
-    <Property Name="DelFlag" Type="smallint" Nullable="false" />
+    <Property Name="delFlag" Type="smallint" Nullable="false" />
   </EntityType>
   <EntityType Name="UserInfoRoleInfo">
     <Key>

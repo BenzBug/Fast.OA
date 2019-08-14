@@ -62,7 +62,7 @@
     <Property Name="Age" Type="Int32" Nullable="false" />
     <Property Name="Phone" Type="String" Nullable="true" MaxLength="16" Unicode="true" FixedLength="false" />
     <Property Name="Email" Type="String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
-    <Property Name="DelFlag" Type="Int16" Nullable="false" DefaultValue="0" />
+    <Property Name="delFlag" Type="Int16" Nullable="false" />
   </EntityType>
   <EntityType Name="ActionInfo">
     <Key>

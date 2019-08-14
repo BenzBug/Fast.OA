@@ -32,12 +32,12 @@
     <EntitySetMapping Name="UserInfoExt">
       <EntityTypeMapping TypeName="IsTypeOf(DataModel.UserInfoExt)">
         <MappingFragment StoreEntitySet="UserInfoExt">
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="UserInfoID" ColumnName="UserInfoID" />
           <ScalarProperty Name="Age" ColumnName="Age" />
           <ScalarProperty Name="Phone" ColumnName="Phone" />
           <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="DelFlag" ColumnName="DelFlag" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

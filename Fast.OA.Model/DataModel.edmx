@@ -74,7 +74,7 @@
           <Property Name="Age" Type="int" Nullable="false" />
           <Property Name="Phone" Type="nvarchar" MaxLength="16" />
           <Property Name="Email" Type="nvarchar(max)" />
-          <Property Name="DelFlag" Type="smallint" Nullable="false" />
+          <Property Name="delFlag" Type="smallint" Nullable="false" />
         </EntityType>
         <EntityType Name="UserInfoRoleInfo">
           <Key>
@@ -223,7 +223,7 @@
           <Property Name="Age" Type="Int32" Nullable="false" />
           <Property Name="Phone" Type="String" Nullable="true" MaxLength="16" Unicode="true" FixedLength="false" />
           <Property Name="Email" Type="String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
-          <Property Name="DelFlag" Type="Int16" Nullable="false" DefaultValue="0" />
+          <Property Name="delFlag" Type="Int16" Nullable="false" />
         </EntityType>
         <EntityType Name="ActionInfo">
           <Key>
@@ -324,12 +324,12 @@
     <EntitySetMapping Name="UserInfoExt">
       <EntityTypeMapping TypeName="IsTypeOf(DataModel.UserInfoExt)">
         <MappingFragment StoreEntitySet="UserInfoExt">
-          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="delFlag" ColumnName="delFlag" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="UserInfoID" ColumnName="UserInfoID" />
           <ScalarProperty Name="Age" ColumnName="Age" />
           <ScalarProperty Name="Phone" ColumnName="Phone" />
           <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="DelFlag" ColumnName="DelFlag" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

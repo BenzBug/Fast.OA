@@ -10,15 +10,25 @@ namespace 修改App内容
     {
         static void Main(string[] args)
         {
-            //string videopath= AppConfigHelper.GetValueByKey("videopath");
-            //< add key = "videopath" value = "http://10.68.4.97:8011/" />
-            string key = "videopath";
-            string value = "http://10.68.4.97:8011/";
-            AppConfigHelper.ModifyAppSettings(key,value);
-            string videopath = AppConfigHelper.GetValueByKey("videopath");
-            Console.WriteLine(videopath);
-            Console.ReadKey();
-        }
+            ////string videopath= AppConfigHelper.GetValueByKey("videopath");
+            ////< add key = "videopath" value = "http://10.68.4.97:8011/" />
+            //string key = "videopath";
+            //string value = "http://10.68.4.97:8011/";
+            //AppConfigHelper.ModifyAppSettings(key,value);
+            //string videopath = AppConfigHelper.GetValueByKey("videopath");
+            //Console.WriteLine(videopath);
+            //Console.ReadKey();
+
+            string[] imgTypes = { "jpeg", "jpg", "gif", "png", "bmp" };
+            if (imgTypes.Contains("jpgp"))
+            {
+
+            }
+            else
+            {
+
+            }
+    }
     }
 
 

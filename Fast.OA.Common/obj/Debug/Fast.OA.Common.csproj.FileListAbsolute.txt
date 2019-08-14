@@ -31,6 +31,6 @@ F:\MyGit\Fast.OA\Fast.OA.Common\bin\Debug\ServiceStack.Redis.dll
 F:\MyGit\Fast.OA\Fast.OA.Common\bin\Debug\ServiceStack.ServiceInterface.dll
 F:\MyGit\Fast.OA\Fast.OA.Common\bin\Debug\ServiceStack.Text.dll
 F:\MyGit\Fast.OA\Fast.OA.Common\bin\Debug\Memcached.ClientLibrary.pdb
-F:\MyGit\Fast.OA\Fast.OA.Common\obj\Debug\Fast.OA.Common.csprojResolveAssemblyReference.cache
 F:\MyGit\Fast.OA\Fast.OA.Common\obj\Debug\Fast.OA.Common.dll
 F:\MyGit\Fast.OA\Fast.OA.Common\obj\Debug\Fast.OA.Common.pdb
+F:\MyGit\Fast.OA\Fast.OA.Common\obj\Debug\Fast.OA.Common.csprojResolveAssemblyReference.cache

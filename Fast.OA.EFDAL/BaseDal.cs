@@ -14,7 +14,7 @@ namespace Fast.OA.EFDAL
     /// 类的职责一定要单一
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class BaseDal<T> where T:class,new()
+    public class BaseDal<T> where T:BaseEntity,new()
     {
         //FAST_V1Entities db = new FAST_V1Entities();
 
@@ -94,7 +94,7 @@ namespace Fast.OA.EFDAL
         }
 
         /// <summary>
-        /// 删除
+        /// 真删除
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
@@ -102,11 +102,42 @@ namespace Fast.OA.EFDAL
         {
             db.Entry(entity).State = EntityState.Deleted;
 
-            //return db.SaveChanges() > 0;
-            return true;
+            return db.SaveChanges() > 0;
+
+            //db.Entry(entity)
+
+            ////return true;
 
         }
 
+        /// <summary>
+        /// 删除
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public bool Delete(int id)
+        {
+            var entity = db.Set<T>().Find(id);
+
+            db.Set<T>().Remove(entity);
+            return true;
+        }
+
+        public int deleteListByLogical(List<int> ids)
+        {
+            foreach (var id in ids)
+            {
+                var entity = db.Set<T>().Find(id);
+                #region 反射方式给delFlag字段赋值
+                //db.Entry(entity).Property("DelFlag").CurrentValue = (short)Model.Enum.DelFlagEnum.Deleted;
+                //db.Entry(entity).Property("DelFlag").IsModified = true; 
+                #endregion
+                entity.delFlag = (short)Model.Enum.DelFlagEnum.Deleted;
+                db.Entry(entity).State = EntityState.Modified;
+
+            }
+            return ids.Count;
+        }
         #endregion
     }
 }

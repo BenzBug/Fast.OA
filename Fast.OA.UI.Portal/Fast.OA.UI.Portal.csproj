@@ -1684,6 +1684,7 @@
     <Content Include="Content\AdminLTE\plugins\iCheck\square\_all.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\GoodTbStyle.css" />
     <Content Include="Content\Images\7_7.jpg" />
     <Content Include="Content\Images\bg3.png" />
     <Content Include="Content\Images\big.png" />
@@ -2069,30 +2070,6 @@
     <Content Include="Content\jquery-easyui-1.8.3\jquery.easyui.mobile.js" />
     <Content Include="Content\jquery-easyui-1.8.3\jquery.min.js" />
     <Content Include="Content\jquery-easyui-1.8.3\license_freeware.txt" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-af.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-am.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-ar.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-bg.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-ca.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-cs.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-cz.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-da.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-de.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-el.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-en.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-es.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-fa.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-fr.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-it.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-jp.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-ko.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-nl.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-pl.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-pt_BR.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-ru.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-sv_SE.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-tr.js" />
-    <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-ua.js" />
     <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-zh_CN.js" />
     <Content Include="Content\jquery-easyui-1.8.3\locale\easyui-lang-zh_TW.js" />
     <Content Include="Content\jquery-easyui-1.8.3\plugins\copy.js" />
@@ -2988,6 +2965,7 @@
     <Content Include="Content\ligerui\Source\lib\ligerUI\skins\Silvery\images\layout\tabs-tools.gif" />
     <Content Include="Content\ligerui\Source\V1.1.9升级必看.txt" />
     <Content Include="Content\ligerui\Source\welcome.htm" />
+    <Content Include="Content\tableStyle.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -3184,6 +3162,7 @@
     <Content Include="Content\AdminLTE\dist\css\adminlte.css.map" />
     <Content Include="Content\AdminLTE\dist\css\adminlte.min.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\datapattern.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -3232,6 +3211,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\UserInfo\Index.cshtml" />
     <Content Include="Views\UserLogin\IndexLTE_Login.cshtml" />
+    <Content Include="Views\UserInfo\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

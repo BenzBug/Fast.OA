@@ -13,7 +13,7 @@ namespace Fast.OA.Model
     using System.Collections.Generic;
     
     [Serializable]
-    public partial class ActionInfo
+    public partial class ActionInfo:BaseEntity
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public ActionInfo()
@@ -29,7 +29,7 @@ namespace Fast.OA.Model
         public bool IsMenu { get; set; }
         public string MenuIcon { get; set; }
         public string Sort { get; set; }
-        public short delFlag { get; set; }
+        public override short delFlag { get; set; }
         public string remark { get; set; }
         public System.DateTime createTime { get; set; }
         public System.DateTime updateTime { get; set; }

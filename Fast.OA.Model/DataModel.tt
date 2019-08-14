@@ -283,7 +283,20 @@ public class CodeStringGenerator
 
     public string Property(EdmProperty edmProperty)
     {
-        return string.Format(
+        if (edmProperty.ToString()=="delFlag")
+        {
+		 return string.Format(
+            CultureInfo.InvariantCulture,
+            "{0} {5} {1} {2} {{ {3}get; {4}set; }}",
+            Accessibility.ForProperty(edmProperty),
+            _typeMapper.GetTypeName(edmProperty.TypeUsage),
+            _code.Escape(edmProperty),
+            _code.SpaceAfter(Accessibility.ForGetter(edmProperty)),
+            _code.SpaceAfter(Accessibility.ForSetter(edmProperty)),
+			"override");
+        }else
+        {
+	         return string.Format(
             CultureInfo.InvariantCulture,
             "{0} {1} {2} {{ {3}get; {4}set; }}",
             Accessibility.ForProperty(edmProperty),
@@ -291,6 +304,8 @@ public class CodeStringGenerator
             _code.Escape(edmProperty),
             _code.SpaceAfter(Accessibility.ForGetter(edmProperty)),
             _code.SpaceAfter(Accessibility.ForSetter(edmProperty)));
+        }
+        
     }
 
     public string NavigationProperty(NavigationProperty navProp)
@@ -315,7 +330,7 @@ public class CodeStringGenerator
     {
         return string.Format(
             CultureInfo.InvariantCulture,
-            "[Serializable]\r\n{0} {1}partial class {2}{3}",
+            "[Serializable]\r\n{0} {1}partial class {2}{3}:BaseEntity",
             Accessibility.ForType(entity),
             _code.SpaceAfter(_code.AbstractOption(entity)),
             _code.Escape(entity),

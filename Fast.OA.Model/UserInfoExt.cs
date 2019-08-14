@@ -13,19 +13,13 @@ namespace Fast.OA.Model
     using System.Collections.Generic;
     
     [Serializable]
-    public partial class UserInfoExt
+    public partial class UserInfoExt:BaseEntity
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public UserInfoExt()
-        {
-            this.DelFlag = 0;
-        }
-    
         public int ID { get; set; }
         public int UserInfoID { get; set; }
         public int Age { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
-        public short DelFlag { get; set; }
+        public override short delFlag { get; set; }
     }
 }

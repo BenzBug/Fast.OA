@@ -84,7 +84,7 @@ namespace Fast.OA.BLL
         }
 
         /// <summary>
-        /// 删除
+        /// 真删除
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
@@ -93,6 +93,40 @@ namespace Fast.OA.BLL
             CurrentDal.Delete(entity);
             return DbSession.SaveChanges() > 0;
 
+        }
+
+        /// <summary>
+        /// 根据ID真删除
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public bool Delete(int id)
+        {
+            CurrentDal.Delete(id);
+            return DbSession.SaveChanges() > 0;
+        }
+        /// <summary>
+        /// 根据ID批量删除
+        /// </summary>
+        /// <param name="ids"></param>
+        /// <returns></returns>
+        public int DeleteList(List<int> ids)
+        {
+            foreach (var id in ids)
+            {
+                CurrentDal.Delete(id);
+            }
+            return DbSession.SaveChanges();
+        }
+        /// <summary>
+        /// 根据ID进行批量删除
+        /// </summary>
+        /// <param name="ids"></param>
+        /// <returns></returns>
+        public int DeleteListByLogical(List<int> ids)
+        {
+            CurrentDal.deleteListByLogical(ids);
+            return DbSession.SaveChanges();
         }
         #endregion
 

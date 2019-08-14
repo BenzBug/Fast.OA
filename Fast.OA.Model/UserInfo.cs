@@ -13,7 +13,7 @@ namespace Fast.OA.Model
     using System.Collections.Generic;
     
     [Serializable]
-    public partial class UserInfo
+    public partial class UserInfo:BaseEntity
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public UserInfo()
@@ -27,7 +27,7 @@ namespace Fast.OA.Model
         public string userName { get; set; }
         public string pwd { get; set; }
         public string showName { get; set; }
-        public short delFlag { get; set; }
+        public override short delFlag { get; set; }
         public string remark { get; set; }
         public System.DateTime createTime { get; set; }
         public System.DateTime updateTime { get; set; }

@@ -13,7 +13,7 @@ namespace Fast.OA.Model
     using System.Collections.Generic;
     
     [Serializable]
-    public partial class RoleInfo
+    public partial class RoleInfo:BaseEntity
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public RoleInfo()
@@ -25,7 +25,7 @@ namespace Fast.OA.Model
         public int Id { get; set; }
         public string roleCode { get; set; }
         public string roleName { get; set; }
-        public short delFlag { get; set; }
+        public override short delFlag { get; set; }
         public string remark { get; set; }
         public System.DateTime createTime { get; set; }
         public System.DateTime updateTime { get; set; }

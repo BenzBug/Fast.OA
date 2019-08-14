@@ -1,4 +1,4 @@
-﻿// 为模型“F:\个人文件（代码相关）\FAST_OA\Fast.OA\Fast.OA.Model\DataModel.edmx”启用了 T4 代码生成。
+﻿// 为模型“F:\MyGit\Fast.OA\Fast.OA.Model\DataModel.edmx”启用了 T4 代码生成。
 // 要启用旧代码生成功能，请将“代码生成策略”设计器属性的值
 // 更改为“旧的 ObjectContext”。当在设计器中打开该模型时，此属性会出现在
 // “属性”窗口中。

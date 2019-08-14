@@ -46,5 +46,23 @@ namespace Fast.OA.IBLL
         /// <param name="entity"></param>
         /// <returns></returns>
         bool Delete(T entity);
+        /// <summary>
+        /// 根据id真删除
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        bool Delete(int id);
+        /// <summary>
+        /// 根据id批量真删除
+        /// </summary>
+        /// <param name="ids"></param>
+        /// <returns></returns>
+        int DeleteList(List<int> ids);
+        /// <summary>
+        /// 根据ID批量逻辑删除
+        /// </summary>
+        /// <param name="ids"></param>
+        /// <returns></returns>
+        int DeleteListByLogical(List<int> ids);
     }
 }

@@ -13,13 +13,13 @@ namespace Fast.OA.Model
     using System.Collections.Generic;
     
     [Serializable]
-    public partial class R_UserInfo_ActionInfo
+    public partial class R_UserInfo_ActionInfo:BaseEntity
     {
         public int Id { get; set; }
         public bool HasPermission { get; set; }
         public int UerInfoID { get; set; }
         public int ActionInfoID { get; set; }
-        public short delFlag { get; set; }
+        public override short delFlag { get; set; }
     
         public virtual UserInfo UserInfo { get; set; }
         public virtual ActionInfo ActionInfo { get; set; }

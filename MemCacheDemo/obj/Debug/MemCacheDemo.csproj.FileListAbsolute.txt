@@ -6,6 +6,6 @@ F:\MyGit\Fast.OA\MemCacheDemo\bin\Debug\ICSharpCode.SharpZipLib.dll
 F:\MyGit\Fast.OA\MemCacheDemo\bin\Debug\log4net.dll
 F:\MyGit\Fast.OA\MemCacheDemo\bin\Debug\Memcached.ClientLibrary.dll
 F:\MyGit\Fast.OA\MemCacheDemo\bin\Debug\Memcached.ClientLibrary.pdb
-F:\MyGit\Fast.OA\MemCacheDemo\obj\Debug\MemCacheDemo.csprojResolveAssemblyReference.cache
 F:\MyGit\Fast.OA\MemCacheDemo\obj\Debug\MemCacheDemo.exe
 F:\MyGit\Fast.OA\MemCacheDemo\obj\Debug\MemCacheDemo.pdb
+F:\MyGit\Fast.OA\MemCacheDemo\obj\Debug\MemCacheDemo.csprojResolveAssemblyReference.cache

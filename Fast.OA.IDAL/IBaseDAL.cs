@@ -41,12 +41,23 @@ namespace Fast.OA.IDAL
         bool Update(T entity);
 
         /// <summary>
-        /// 删除
+        /// 真删除
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
         bool Delete(T entity);
-
+        /// <summary>
+        /// 根据ID真删除
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        bool Delete(int id);
+        /// <summary>
+        /// 根据ID真删除
+        /// </summary>
+        /// <param name="ids"></param>
+        /// <returns></returns>
+        int deleteListByLogical(List<int> ids);
     }
 
 }
