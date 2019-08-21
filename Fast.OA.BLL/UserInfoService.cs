@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fast.OA.Model.Param;
 
 namespace Fast.OA.IBLL
 {
@@ -40,6 +41,29 @@ namespace Fast.OA.IBLL
             return admin;
         }
 
+        #region 多条件查询
+        public IQueryable<UserInfo> LogPageData(UserQueryParam userQueryParam)
+        {
+            short normalFlag = (short)Model.Enum.DelFlagEnum.Normal;
+            var temp = dbSession.UserInfoDal.GetEntities(u => u.delFlag == normalFlag);
 
+            //过滤
+            if (!string.IsNullOrEmpty(userQueryParam.SchCode))
+            {
+                temp = temp.Where(u => u.userCode.Contains(userQueryParam.SchCode)).AsQueryable();
+            }
+            if (!string.IsNullOrEmpty(userQueryParam.SchName))
+            {
+                temp = temp.Where(u => u.userName.Contains(userQueryParam.SchName)).AsQueryable();
+            }
+
+            userQueryParam.Total = temp.Count();
+
+            //分页
+            return temp.OrderBy(u => u.Id)
+                .Skip(userQueryParam.PageSize * (userQueryParam.PageIndex - 1))
+                .Take(userQueryParam.PageSize).AsQueryable();
+        } 
+        #endregion
     }
 }

@@ -108,6 +108,6 @@ F:\MyGit\Fast.OA\Fast.OA.API\bin\zh-Hans\Microsoft.Owin.Security.Google.resource
 F:\MyGit\Fast.OA\Fast.OA.API\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 F:\MyGit\Fast.OA\Fast.OA.API\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 F:\MyGit\Fast.OA\Fast.OA.API\bin\zh-Hans\System.Web.Http.Owin.resources.dll
-F:\MyGit\Fast.OA\Fast.OA.API\obj\Debug\Fast.OA.API.csprojResolveAssemblyReference.cache
 F:\MyGit\Fast.OA\Fast.OA.API\obj\Debug\Fast.OA.API.dll
 F:\MyGit\Fast.OA\Fast.OA.API\obj\Debug\Fast.OA.API.pdb
+F:\MyGit\Fast.OA\Fast.OA.API\obj\Debug\Fast.OA.API.csprojResolveAssemblyReference.cache

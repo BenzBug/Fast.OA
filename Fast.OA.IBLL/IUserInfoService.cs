@@ -1,5 +1,6 @@
 ﻿using Fast.OA.IBLL;
 using Fast.OA.Model;
+using Fast.OA.Model.Param;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace Fast.OA.IBLL
 {
     public partial interface IUserInfoService : IBaseService<UserInfo>
     {
-
+        IQueryable<UserInfo> LogPageData(UserQueryParam userQueryParam);
     }
 }

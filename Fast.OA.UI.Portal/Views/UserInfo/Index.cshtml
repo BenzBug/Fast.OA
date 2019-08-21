@@ -19,15 +19,35 @@
     <script src="~/Content/jquery-easyui-1.8.3/locale/easyui-lang-zh_CN.js"></script>
     <script src="~/Scripts/datapattern.js"></script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
-    <script type="text/javascript">
+    <script src="~/Theme/System/User/Fast.OA.User.js"></script>
+    <script >
+        $(function () {
+            UserManager.Load();
+
+            //initTable();
+            ////关闭对话框
+            //$("#addDialogDiv").css("display", "none");
+            //$("#editDialogDiv").css("display", "none");
+
+            //bindSearchBtnClick();
+        });
+    </script>
+    @*<script type="text/javascript">
         $(function () {
             initTable();
             //关闭对话框
             $("#addDialogDiv").css("display", "none");
             $("#editDialogDiv").css("display", "none");
-            
-            
+
+            bindSearchBtnClick();
         });
+
+        function bindSearchBtnClick() {
+            $("#btnSearch").click(function () {
+                var data = { schCode: $("#txtSchCode").val(),schName:$("#txtSchName").val() }
+                initTable(data);
+            })
+        }
 
         //初始化表格
         function initTable(queryParam)
@@ -203,7 +223,7 @@
                     }
                 }]
 
-            }); 
+            });
 
         }
         //把表单提交到后台。
@@ -222,15 +242,19 @@
                 //$.messager.alert(data);
             }
         }
-    </script>
+    </script>*@
 </head>
 <body>
+    <div>
+        用户编码：<input type="text" id="txtSchCode" name="txtSchCode" /> &nbsp;用户名称：<input type="text" id="txtSchName" name="txtSchName" /><input type="button" id="btnSearch" value="搜索" />
+    </div>
+    <hr />
     @*当前页面放表格数据的地方*@
     <table id="tt" style="width: 700px;" title="标题，可以使用代码进行初始化，也可以使用这种属性的方式" iconcls="icon-edit">
-    </table>    
+    </table>
     <!----------------弹出来的【添加】的对话框- 开始------------>
     <div id="addDialogDiv">
-        @using (Ajax.BeginForm("Add", "UserInfo", new AjaxOptions() { OnSuccess = "afterAdd" }))
+        @using (Ajax.BeginForm("Add", "UserInfo", new AjaxOptions() { OnSuccess = "UserManager.afterAdd" }))
         {
             <table class="t1">
                 <tr>

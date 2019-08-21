@@ -3,6 +3,6 @@ F:\MyGit\Fast.OA\Log4NetDemo\bin\Debug\Log4NetDemo.exe
 F:\MyGit\Fast.OA\Log4NetDemo\bin\Debug\Log4NetDemo.pdb
 F:\MyGit\Fast.OA\Log4NetDemo\bin\Debug\log4net.dll
 F:\MyGit\Fast.OA\Log4NetDemo\bin\Debug\log4net.xml
-F:\MyGit\Fast.OA\Log4NetDemo\obj\Debug\Log4NetDemo.csprojResolveAssemblyReference.cache
 F:\MyGit\Fast.OA\Log4NetDemo\obj\Debug\Log4NetDemo.exe
 F:\MyGit\Fast.OA\Log4NetDemo\obj\Debug\Log4NetDemo.pdb
+F:\MyGit\Fast.OA\Log4NetDemo\obj\Debug\Log4NetDemo.csprojResolveAssemblyReference.cache

@@ -19,6 +19,6 @@ F:\MyGit\Fast.OA\Fast.OA.Model\bin\Debug\EntityFramework.xml
 F:\MyGit\Fast.OA\Fast.OA.Model\bin\Debug\EntityFramework.SqlServer.xml
 F:\MyGit\Fast.OA\Fast.OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
 F:\MyGit\Fast.OA\Fast.OA.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
-F:\MyGit\Fast.OA\Fast.OA.Model\obj\Debug\Fast.OA.Model.csprojResolveAssemblyReference.cache
 F:\MyGit\Fast.OA\Fast.OA.Model\obj\Debug\Fast.OA.Model.dll
 F:\MyGit\Fast.OA\Fast.OA.Model\obj\Debug\Fast.OA.Model.pdb
+F:\MyGit\Fast.OA\Fast.OA.Model\obj\Debug\Fast.OA.Model.csprojResolveAssemblyReference.cache

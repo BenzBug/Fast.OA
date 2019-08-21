@@ -3176,6 +3176,8 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Theme\System\User\Fast.OA.Action.js" />
+    <Content Include="Theme\System\User\Fast.OA.User.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -3212,6 +3214,7 @@
     <Content Include="Views\UserInfo\Index.cshtml" />
     <Content Include="Views\UserLogin\IndexLTE_Login.cshtml" />
     <Content Include="Views\UserInfo\Edit.cshtml" />
+    <Content Include="Views\ActionInfo\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

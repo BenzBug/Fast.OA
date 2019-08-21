@@ -19,7 +19,7 @@ namespace Fast.OA.UI.Portal.Controllers
             base.OnActionExecuting(filterContext);
 
             //TODO:测试结束后删除return
-            //return; 
+            return;
 
             if (isCheckLoginuser)
             {

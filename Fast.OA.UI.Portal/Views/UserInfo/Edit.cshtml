@@ -12,10 +12,11 @@
     <title>Edit</title>
     <script src="~/Scripts/jquery-1.10.2.js"></script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Theme/System/User/Fast.OA.User.js"></script>
    <script type="text/javascript">
        function afterEdit(data) {
            if (data=="ok") {
-               window.parent.window.afterEditSuccess();
+               window.parent.window.UserManager.afterEditSuccess();
            } else {
                alert("修改失败，请检查");
            }
@@ -30,7 +31,7 @@
 
 </head>
 <body>
-    @using (Ajax.BeginForm(new AjaxOptions() { OnSuccess="afterEdit"}))
+    @using (Ajax.BeginForm(new AjaxOptions() { OnSuccess= "afterEdit" }))
     {
         @Html.AntiForgeryToken()
         

@@ -8,4 +8,3 @@ F:\MyGit\Fast.OA\MemCacheDemo\bin\Debug\Memcached.ClientLibrary.dll
 F:\MyGit\Fast.OA\MemCacheDemo\bin\Debug\Memcached.ClientLibrary.pdb
 F:\MyGit\Fast.OA\MemCacheDemo\obj\Debug\MemCacheDemo.exe
 F:\MyGit\Fast.OA\MemCacheDemo\obj\Debug\MemCacheDemo.pdb
-F:\MyGit\Fast.OA\MemCacheDemo\obj\Debug\MemCacheDemo.csprojResolveAssemblyReference.cache

@@ -9,7 +9,7 @@ using System.Web.Mvc;
 namespace Fast.OA.UI.Portal.Controllers
 {
     public class HomeController : BaseController
-    {
+    {   
         short delFlagNormal =(short) Model.Enum.DelFlagEnum.Normal;
         public IUserInfoService UserInfoService = new UserInfoService();
         public IActionInfoService ActionInfoService = new ActionInfoService();

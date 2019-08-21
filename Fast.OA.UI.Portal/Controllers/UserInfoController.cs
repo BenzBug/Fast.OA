@@ -1,5 +1,6 @@
 ﻿using Fast.OA.IBLL;
 using Fast.OA.Model;
+using Fast.OA.Model.Param;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,17 +22,41 @@ namespace Fast.OA.UI.Portal.Controllers
             //easyui table在初始化的时候自动传入两个参数
             int pageSize = int.Parse(Request["rows"]??"10");
             int pageIndex = int.Parse(Request["page"]??"1");
-            int total = 0;
 
-            short delflagNormal = (short)Model.Enum.DelFlagEnum.Normal;
+            //多条件查询：
+            string schCode = Request["schCode"];
+            string schName = Request["schName"];
 
-            //拿到当前页数据
-            var pagedata = UserInfoService.GetPageEntities(pageSize, pageIndex, out total,
-                                                u => u.delFlag == delflagNormal, u => u.Id, true)
-                                                .Select(u => new { u.Id,u.userCode,u.userName,u.pwd,u.showName,
-                                                        u.remark,u.createTime,u.delFlag,u.updateTime});
-            var data = new { total = total, rows = pagedata.ToList() };
+            var queryParam = new UserQueryParam()
+            {
+                PageIndex = pageIndex,
+                PageSize = pageSize,
+                Total = 0,
+                SchCode = schCode,
+                SchName = schName
+            };
 
+            var pageData = UserInfoService.LogPageData(queryParam);
+
+            var temp = pageData.Select(u=>new
+            {
+                u.Id,
+                u.userCode,
+                u.userName,
+                u.pwd,
+                u.showName,
+                u.remark,
+                u.createTime,
+                u.delFlag,
+                u.updateTime
+            });
+            ////拿到当前页数据
+            //var pagedata = UserInfoService.GetPageEntities(pageSize, pageIndex, out total,
+            //                                    u => u.delFlag == delflagNormal, u => u.Id, true)
+            //                                    .Select(u => new { u.Id,u.userCode,u.userName,u.pwd,u.showName,
+            //                                            u.remark,u.createTime,u.delFlag,u.updateTime});
+            //var data = new { total = total, rows = pagedata.ToList() };
+            var data=new { total= pageData.Count(), rows= temp.ToList() };
             return Json(data,JsonRequestBehavior.AllowGet);
         }
         /// <summary>
